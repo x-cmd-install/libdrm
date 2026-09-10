@@ -58,7 +58,7 @@ Reported by **290** distros on [repology.org](https://repology.org/project/libdr
 | Debian 14 | `2.4.124` | 🪦 legacy |
 | Debian 13 | `2.4.124` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `2.4.131` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `2.4.120` | 🪦 legacy |
+| Ubuntu 24.04 LTS | `2.4.125` | ⚠️ outdated |
 | Arch | `2.4.134` | ✅ latest |
 | Homebrew | `2.4.134` | ✅ latest |
 | Fedora rawhide | `2.4.134` | ✅ latest |
@@ -76,4 +76,4 @@ Install metadata for libdrm lives in the [x-cmd/install](https://github.com/x-cm
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260910.yml` · 2026-09-10T20:43:44Z._
+_Snapshot: `data/card/260910.yml` · 2026-09-10T23:14:20Z._
