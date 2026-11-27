@@ -1,146 +1,37 @@
-- repo: manjaro_testing
-  subrepo: multilib
-  srcname: lib32-libdrm
-  binname: lib32-libdrm
-  visiblename: lib32-libdrm
-  version: 2.4.134
-  origversion: 2.4.134-1
-  status: newest
-  summary: Userspace interface to kernel DRM services (32-bit)
-  licenses:
-    - MIT
-- repo: manjaro_testing
-  subrepo: extra
+- repo: amazon_2
   srcname: libdrm
-  binname: libdrm
   visiblename: libdrm
-  version: 2.4.134
-  origversion: 2.4.134-1
-  status: newest
-  summary: Userspace interface to kernel DRM services
-  licenses:
-    - MIT
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-    - libdrm-debuginfo
-    - libdrm-debugsource
-  visiblename: libdrm
-  version: 2.4.111
-  origversion: 2.4.111-1.el9
+  version: 2.4.83
+  origversion: 2.4.83-2.amzn2
   status: legacy
   summary: Direct Rendering Manager runtime library
   licenses:
     - MIT
   categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
+    - System Environment/Libraries
+- repo: amazon_2
   srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-    - libdrm-debuginfo
-    - libdrm-debugsource
   visiblename: libdrm
-  version: 2.4.114
-  origversion: 2.4.114-1.el9
+  version: 2.4.91
+  origversion: 2.4.91-3.amzn2
   status: legacy
   summary: Direct Rendering Manager runtime library
   licenses:
     - MIT
   categories:
-    - Unspecified
-- repo: exherbo
-  subrepo: x11
-  srcname: x11-dri/libdrm
-  visiblename: x11-dri/libdrm
-  version: scm
-  origversion: null
-  status: rolling
-  summary: Direct Rendering Manager library for X.org
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - x11-dri
-- repo: homebrew
+    - System Environment/Libraries
+- repo: amazon_2
   srcname: libdrm
   visiblename: libdrm
-  version: 2.4.134
-  origversion: null
-  status: newest
-  summary: Library for accessing the direct rendering manager
-- repo: manjaro_stable
-  subrepo: multilib
-  srcname: lib32-libdrm
-  binname: lib32-libdrm
-  visiblename: lib32-libdrm
-  version: 2.4.134
-  origversion: 2.4.134-1
-  status: newest
-  summary: Userspace interface to kernel DRM services (32-bit)
-  licenses:
-    - MIT
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.106
-  origversion: 2.4.106-2.el8
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-    - libdrm-debuginfo
-    - libdrm-debugsource
-  visiblename: libdrm
-  version: 2.4.115
-  origversion: 2.4.115-1.el9
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.100
-  origversion: 2.4.100-1.el8
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: eurolinux_8
-  subrepo: appstream
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.108
-  origversion: 2.4.108-1.el8
+  version: 2.4.97
+  origversion: 2.4.97-2.amzn2
   status: outdated
   summary: Direct Rendering Manager runtime library
   licenses:
     - MIT
   categories:
-    - Unspecified
-- repo: arch
+    - System Environment/Libraries
+- repo: manjaro_stable
   subrepo: extra
   srcname: libdrm
   binname: libdrm
@@ -151,18 +42,50 @@
   summary: Userspace interface to kernel DRM services
   licenses:
     - MIT
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: manjaro_testing
+  subrepo: extra
+  srcname: libdrm
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: 2.4.134-1
+  status: newest
+  summary: Userspace interface to kernel DRM services
+  licenses:
+    - MIT
+- repo: manjaro_unstable
+  subrepo: extra
+  srcname: libdrm
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: 2.4.134-1
+  status: newest
+  summary: Userspace interface to kernel DRM services
+  licenses:
+    - MIT
+- repo: manjaro_testing
+  subrepo: multilib
+  srcname: lib32-libdrm
+  binname: lib32-libdrm
+  visiblename: lib32-libdrm
+  version: 2.4.134
+  origversion: 2.4.134-1
+  status: newest
+  summary: Userspace interface to kernel DRM services (32-bit)
+  licenses:
+    - MIT
+- repo: amazon_2
   srcname: libdrm
   visiblename: libdrm
-  version: 2.4.101
-  origversion: 2.4.101-1.el8
+  version: 2.4.83
+  origversion: 2.4.83-2.amzn2.0.2
   status: legacy
   summary: Direct Rendering Manager runtime library
   licenses:
     - MIT
   categories:
-    - Unspecified
+    - System Environment/Libraries
 - repo: adelie_current
   subrepo: user
   srcname: libdrm
@@ -258,17 +181,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: arch
-  subrepo: multilib
-  srcname: lib32-libdrm
-  binname: lib32-libdrm
-  visiblename: lib32-libdrm
-  version: 2.4.134
-  origversion: 2.4.134-1
-  status: newest
-  summary: Userspace interface to kernel DRM services (32-bit)
-  licenses:
-    - MIT
 - repo: alpine_3_17
   subrepo: main
   srcname: libdrm
@@ -347,83 +259,82 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
-- repo: alpine_3_19
-  subrepo: main
-  srcname: libdrm
-  binname: libdrm-dev
-  visiblename: libdrm-dev
-  version: 2.4.118
-  origversion: 2.4.118-r0
-  status: outdated
-  summary: Userspace interface to kernel DRM services (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: main
-  srcname: libdrm
-  binname: libdrm-tests
-  visiblename: libdrm-tests
-  version: 2.4.118
-  origversion: 2.4.118-r0
-  status: outdated
-  summary: Userspace interface to kernel DRM services
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: libdrm
-  binname: libdrm
-  visiblename: libdrm
-  version: 2.4.120
-  origversion: 2.4.120-r0
-  status: outdated
-  summary: Userspace interface to kernel DRM services
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: libdrm
-  binname: libdrm-dev
-  visiblename: libdrm-dev
-  version: 2.4.120
-  origversion: 2.4.120-r0
-  status: outdated
-  summary: Userspace interface to kernel DRM services (development files)
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: main
-  srcname: libdrm
-  binname: libdrm-tests
-  visiblename: libdrm-tests
-  version: 2.4.120
-  origversion: 2.4.120-r0
-  status: outdated
-  summary: Userspace interface to kernel DRM services
-  maintainers:
-    - ncopa@alpinelinux.org
-  licenses:
-    - MIT
-- repo: eurolinux_8
-  subrepo: appstream
+- repo: openeuler_20_03_lts_sp3
   srcname: libdrm
   visiblename: libdrm
-  version: 2.4.103
-  origversion: 2.4.103-1.el8
-  status: legacy
-  summary: Direct Rendering Manager runtime library
+  version: 2.4.102
+  origversion: 2.4.102-1.oe1
+  status: outdated
+  summary: library for direct rendering manager
   licenses:
     - MIT
   categories:
     - Unspecified
+- repo: alpine_3_19
+  subrepo: main
+  srcname: libdrm
+  binname: libdrm-dev
+  visiblename: libdrm-dev
+  version: 2.4.118
+  origversion: 2.4.118-r0
+  status: outdated
+  summary: Userspace interface to kernel DRM services (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: main
+  srcname: libdrm
+  binname: libdrm-tests
+  visiblename: libdrm-tests
+  version: 2.4.118
+  origversion: 2.4.118-r0
+  status: outdated
+  summary: Userspace interface to kernel DRM services
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: libdrm
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.120
+  origversion: 2.4.120-r0
+  status: outdated
+  summary: Userspace interface to kernel DRM services
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: libdrm
+  binname: libdrm-dev
+  visiblename: libdrm-dev
+  version: 2.4.120
+  origversion: 2.4.120-r0
+  status: outdated
+  summary: Userspace interface to kernel DRM services (development files)
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: main
+  srcname: libdrm
+  binname: libdrm-tests
+  visiblename: libdrm-tests
+  version: 2.4.120
+  origversion: 2.4.120-r0
+  status: outdated
+  summary: Userspace interface to kernel DRM services
+  maintainers:
+    - ncopa@alpinelinux.org
+  licenses:
+    - MIT
 - repo: alpine_3_21
   subrepo: main
   srcname: libdrm
@@ -489,6 +400,20 @@
     - ncopa@alpinelinux.org
   licenses:
     - MIT
+- repo: centos_stream_8
+  subrepo: AppStream
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.108
+  origversion: 2.4.108-1.el8
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  maintainers:
+    - bugs@centos.org
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: alpine_3_22
   subrepo: main
   srcname: libdrm
@@ -680,50 +605,6 @@
     - MIT
   categories:
     - System Environment/Libraries
-- repo: amazon_2
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.83
-  origversion: 2.4.83-2.amzn2.0.2
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
-- repo: amazon_2
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.83
-  origversion: 2.4.83-2.amzn2
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
-- repo: amazon_2
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.91
-  origversion: 2.4.91-3.amzn2
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
-- repo: amazon_2
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.97
-  origversion: 2.4.97-2.amzn2
-  status: outdated
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - System Environment/Libraries
 - repo: aosc
   srcname: runtime-display/libdrm
   binname: libdrm
@@ -748,24 +629,6 @@
     - fallback-mnt-aosc@repology
   categories:
     - x11
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-    - libdrm-debuginfo
-    - libdrm-debugsource
-  visiblename: libdrm
-  version: 2.4.107
-  origversion: 2.4.107-3.el9
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: apertis_v2023
   subrepo: v2023/target
   srcname: libdrm
@@ -891,6 +754,28 @@
   maintainers:
     - debian-x@lists.debian.org
     - aboll@debian.org
+- repo: arch
+  subrepo: extra
+  srcname: libdrm
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: 2.4.134-1
+  status: newest
+  summary: Userspace interface to kernel DRM services
+  licenses:
+    - MIT
+- repo: arch
+  subrepo: multilib
+  srcname: lib32-libdrm
+  binname: lib32-libdrm
+  visiblename: lib32-libdrm
+  version: 2.4.134
+  origversion: 2.4.134-1
+  status: newest
+  summary: Userspace interface to kernel DRM services (32-bit)
+  licenses:
+    - MIT
 - repo: aur
   srcname: android-aarch64-libdrm
   binname: android-aarch64-libdrm
@@ -1055,20 +940,6 @@
   visiblename: libdrm
   version: 2.4.106
   origversion: 2.4.106-2.el8
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  maintainers:
-    - bugs@centos.org
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: centos_stream_8
-  subrepo: AppStream
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.108
-  origversion: 2.4.108-1.el8
   status: legacy
   summary: Direct Rendering Manager runtime library
   maintainers:
@@ -1299,6 +1170,24 @@
     - MIT
   categories:
     - Unspecified
+- repo: slackware_current
+  subrepo: slackware
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackware64_15_0
+  subrepo: slackware64
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.109
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: centos_stream_10
   subrepo: AppStream
   srcname: libdrm
@@ -1478,6 +1367,24 @@
     - aboll@debian.org
   categories:
     - libs
+- repo: slackware64_current
+  subrepo: slackware64
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: null
+  status: newest
+  maintainers:
+    - volkerdi@slackware.com
+- repo: slackwarearm_15_0
+  subrepo: slackware
+  binname: libdrm
+  visiblename: libdrm
+  version: 2.4.109
+  origversion: null
+  status: outdated
+  maintainers:
+    - volkerdi@slackware.com
 - repo: debian_12
   subrepo: bookworm/main
   srcname: libdrm
@@ -1559,24 +1466,6 @@
     - aboll@debian.org
   categories:
     - libs
-- repo: eurolinux_9
-  subrepo: appstream
-  srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-    - libdrm-debuginfo
-    - libdrm-debugsource
-  visiblename: libdrm
-  version: 2.4.108
-  origversion: 2.4.108-1.el9
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: debian_14
   subrepo: forky/main
   srcname: libdrm
@@ -1685,6 +1574,24 @@
     - aboll@debian.org
   categories:
     - libs
+- repo: fedora_39
+  subrepo: release
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+    - libdrm-debuginfo
+    - libdrm-debugsource
+  visiblename: libdrm
+  version: 2.4.114
+  origversion: 2.4.114-3.fc39
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: debian_unstable
   subrepo: sid/main
   srcname: libdrm
@@ -1852,6 +1759,156 @@
   version: 2.4.101
   origversion: 2.4.101-7
   status: outdated
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.100
+  origversion: 2.4.100-1.el8
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.101
+  origversion: 2.4.101-1.el8
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.103
+  origversion: 2.4.103-1.el8
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.106
+  origversion: 2.4.106-2.el8
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_8
+  subrepo: appstream
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.108
+  origversion: 2.4.108-1.el8
+  status: outdated
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+    - libdrm-debuginfo
+    - libdrm-debugsource
+  visiblename: libdrm
+  version: 2.4.107
+  origversion: 2.4.107-3.el9
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+    - libdrm-debuginfo
+    - libdrm-debugsource
+  visiblename: libdrm
+  version: 2.4.108
+  origversion: 2.4.108-1.el9
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+    - libdrm-debuginfo
+    - libdrm-debugsource
+  visiblename: libdrm
+  version: 2.4.111
+  origversion: 2.4.111-1.el9
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+    - libdrm-debuginfo
+    - libdrm-debugsource
+  visiblename: libdrm
+  version: 2.4.114
+  origversion: 2.4.114-1.el9
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: eurolinux_9
+  subrepo: appstream
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+    - libdrm-debuginfo
+    - libdrm-debugsource
+  visiblename: libdrm
+  version: 2.4.115
+  origversion: 2.4.115-1.el9
+  status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: eurolinux_9
   subrepo: appstream
   srcname: libdrm
@@ -1900,35 +1957,18 @@
     - fallback-mnt-exherbo@repology
   categories:
     - x11-dri
-- repo: manjaro_stable
-  subrepo: extra
-  srcname: libdrm
-  binname: libdrm
-  visiblename: libdrm
-  version: 2.4.134
-  origversion: 2.4.134-1
-  status: newest
-  summary: Userspace interface to kernel DRM services
-  licenses:
-    - MIT
-- repo: fedora_39
-  subrepo: release
-  srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-    - libdrm-debuginfo
-    - libdrm-debugsource
-  visiblename: libdrm
-  version: 2.4.114
-  origversion: 2.4.114-3.fc39
-  status: legacy
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
+- repo: exherbo
+  subrepo: x11
+  srcname: x11-dri/libdrm
+  visiblename: x11-dri/libdrm
+  version: scm
+  origversion: null
+  status: rolling
+  summary: Direct Rendering Manager library for X.org
+  maintainers:
+    - fallback-mnt-exherbo@repology
   categories:
-    - Unspecified
+    - x11-dri
 - repo: fedora_39
   subrepo: updates
   srcname: libdrm
@@ -1948,24 +1988,6 @@
   categories:
     - Unspecified
 - repo: fedora_40
-  subrepo: updates
-  srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-    - libdrm-debuginfo
-    - libdrm-debugsource
-  visiblename: libdrm
-  version: 2.4.123
-  origversion: 2.4.123-1.fc40
-  status: outdated
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
   subrepo: release
   srcname: libdrm
   binnames:
@@ -1978,6 +2000,24 @@
   version: 2.4.120
   origversion: 2.4.120-3.fc40
   status: legacy
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+    - libdrm-debuginfo
+    - libdrm-debugsource
+  visiblename: libdrm
+  version: 2.4.123
+  origversion: 2.4.123-1.fc40
+  status: outdated
   summary: Direct Rendering Manager runtime library
   licenses:
     - MIT
@@ -2016,22 +2056,6 @@
   categories:
     - Unspecified
 - repo: fedora_42
-  subrepo: updates
-  srcname: libdrm
-  binnames:
-    - libdrm
-    - libdrm-devel
-    - drm-utils
-  visiblename: libdrm
-  version: 2.4.133
-  origversion: 2.4.133-1.fc42
-  status: outdated
-  summary: Direct Rendering Manager runtime library
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_42
   subrepo: release
   srcname: libdrm
   binnames:
@@ -2047,17 +2071,17 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: libdrm
   binnames:
     - libdrm
     - libdrm-devel
     - drm-utils
   visiblename: libdrm
-  version: 2.4.125
-  origversion: 2.4.125-2.fc43
-  status: legacy
+  version: 2.4.133
+  origversion: 2.4.133-1.fc42
+  status: outdated
   summary: Direct Rendering Manager runtime library
   licenses:
     - MIT
@@ -2079,7 +2103,7 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_44
+- repo: fedora_43
   subrepo: release
   srcname: libdrm
   binnames:
@@ -2087,8 +2111,8 @@
     - libdrm-devel
     - drm-utils
   visiblename: libdrm
-  version: 2.4.131
-  origversion: 2.4.131-1.fc44
+  version: 2.4.125
+  origversion: 2.4.125-2.fc43
   status: legacy
   summary: Direct Rendering Manager runtime library
   licenses:
@@ -2106,6 +2130,22 @@
   version: 2.4.134
   origversion: 2.4.134-1.fc44
   status: newest
+  summary: Direct Rendering Manager runtime library
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: libdrm
+  binnames:
+    - libdrm
+    - libdrm-devel
+    - drm-utils
+  visiblename: libdrm
+  version: 2.4.131
+  origversion: 2.4.131-1.fc44
+  status: legacy
   summary: Direct Rendering Manager runtime library
   licenses:
     - MIT
@@ -2228,6 +2268,24 @@
   summary: Library for accessing the Linux kernel's Direct Rendering Modules
   licenses:
     - MIT License
+- repo: homebrew
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: null
+  status: newest
+  summary: Library for accessing the direct rendering manager
+- repo: manjaro_stable
+  subrepo: multilib
+  srcname: lib32-libdrm
+  binname: lib32-libdrm
+  visiblename: lib32-libdrm
+  version: 2.4.134
+  origversion: 2.4.134-1
+  status: newest
+  summary: Userspace interface to kernel DRM services (32-bit)
+  licenses:
+    - MIT
 - repo: kali_rolling
   subrepo: main
   srcname: libdrm
@@ -2465,17 +2523,6 @@
     - MIT
   categories:
     - x11-libs
-- repo: nix_stable_24_11
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.123
-  origversion: null
-  status: outdated
-  summary: Direct Rendering Manager library and headers
-  maintainers:
-    - dev.primeos@gmail.com
-  licenses:
-    - MIT
 - repo: liguros_stable
   srcname: x11-libs/libdrm
   visiblename: x11-libs/libdrm
@@ -2515,6 +2562,17 @@
     - MIT
   categories:
     - x11-libs
+- repo: nix_unstable
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: null
+  status: newest
+  summary: Direct Rendering Manager library and headers
+  maintainers:
+    - fallback-mnt-nix@repology
+  licenses:
+    - MIT
 - repo: mageia_10
   subrepo: core/release
   srcname: libdrm
@@ -2595,17 +2653,6 @@
   summary: Userspace interface to kernel DRM services (32-bit)
   licenses:
     - MIT
-- repo: manjaro_unstable
-  subrepo: extra
-  srcname: libdrm
-  binname: libdrm
-  visiblename: libdrm
-  version: 2.4.134
-  origversion: 2.4.134-1
-  status: newest
-  summary: Userspace interface to kernel DRM services
-  licenses:
-    - MIT
 - repo: mx_21
   subrepo: ahs
   srcname: libdrm
@@ -2671,6 +2718,17 @@
     - dev.primeos@gmail.com
   licenses:
     - MIT
+- repo: nix_stable_24_11
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.123
+  origversion: null
+  status: outdated
+  summary: Direct Rendering Manager library and headers
+  maintainers:
+    - dev.primeos@gmail.com
+  licenses:
+    - MIT
 - repo: nix_stable_25_05
   srcname: libdrm
   visiblename: libdrm
@@ -2704,28 +2762,6 @@
     - fallback-mnt-nix@repology
   licenses:
     - MIT
-- repo: nix_unstable
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.134
-  origversion: null
-  status: newest
-  summary: Direct Rendering Manager library and headers
-  maintainers:
-    - fallback-mnt-nix@repology
-  licenses:
-    - MIT
-- repo: openeuler_20_03_lts_sp3
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.102
-  origversion: 2.4.102-1.oe1
-  status: outdated
-  summary: library for direct rendering manager
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: openeuler_20_03_lts_sp4
   srcname: libdrm
   visiblename: libdrm
@@ -2863,12 +2899,6 @@
     - MIT
   categories:
     - Unspecified
-- repo: pld
-  srcname: libdrm
-  visiblename: libdrm
-  version: 2.4.134
-  origversion: 2.4.134-1
-  status: newest
 - repo: openkylin_1_0
   subrepo: yangtze/main
   srcname: libdrm
@@ -3377,6 +3407,12 @@
     - pkgsrc-users@netbsd.org
   categories:
     - x11
+- repo: pld
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.134
+  origversion: 2.4.134-1
+  status: newest
 - repo: ptxdist
   srcname: libdrm
   visiblename: libdrm
@@ -3385,32 +3421,6 @@
   status: newest
   licenses:
     - MIT
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: libdrm
-  binnames:
-    - libdrm-amdgpu1
-    - libdrm-common
-    - libdrm-dev
-    - libdrm-etnaviv1
-    - libdrm-exynos1
-    - libdrm-freedreno1
-    - libdrm-intel1
-    - libdrm-nouveau2
-    - libdrm-omap1
-    - libdrm-radeon1
-    - libdrm-tegra0
-    - libdrm2
-    - libdrm2-udeb
-  visiblename: libdrm
-  version: 2.4.97
-  origversion: 2.4.97-1
-  status: outdated
-  maintainers:
-    - debian-x@lists.debian.org
-    - aboll@debian.org
-  categories:
-    - libs
 - repo: pureos_byzantium
   subrepo: byzantium/main
   srcname: libdrm
@@ -3782,42 +3792,6 @@
   status: outdated
   maintainers:
     - volkerdi@slackware.com
-- repo: slackware_current
-  subrepo: slackware
-  binname: libdrm
-  visiblename: libdrm
-  version: 2.4.134
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_15_0
-  subrepo: slackware64
-  binname: libdrm
-  visiblename: libdrm
-  version: 2.4.109
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackware64_current
-  subrepo: slackware64
-  binname: libdrm
-  visiblename: libdrm
-  version: 2.4.134
-  origversion: null
-  status: newest
-  maintainers:
-    - volkerdi@slackware.com
-- repo: slackwarearm_15_0
-  subrepo: slackware
-  binname: libdrm
-  visiblename: libdrm
-  version: 2.4.109
-  origversion: null
-  status: outdated
-  maintainers:
-    - volkerdi@slackware.com
 - repo: solus
   srcname: libdrm
   binname: libdrm
@@ -4099,15 +4073,32 @@
     - andreas.boll.dev@gmail.com
   categories:
     - x11
-- repo: xrepo
+- repo: ubuntu_16_04
+  subrepo: xenial-updates/main
   srcname: libdrm
+  binnames:
+    - libdrm-dev
+    - libdrm2
+    - libdrm-common
+    - libdrm2-udeb
+    - libdrm-intel1
+    - libdrm-nouveau2
+    - libdrm-radeon1
+    - libdrm-omap1
+    - libdrm-freedreno1
+    - libdrm-exynos1
+    - libdrm-tegra0
+    - libdrm-amdgpu1
+    - libdrm-etnaviv1
   visiblename: libdrm
-  version: 2.4.118
-  origversion: null
-  status: legacy
-  summary: libdrm - userspace library for drm (direct rendering manager)
-  licenses:
-    - MIT
+  version: 2.4.91
+  origversion: 2.4.91-2~16.04.1
+  status: outdated
+  maintainers:
+    - debian-x@lists.debian.org
+    - andreas.boll.dev@gmail.com
+  categories:
+    - x11
 - repo: ubuntu_16_04
   subrepo: xenial/main
   srcname: libdrm
@@ -4141,8 +4132,8 @@
     - andreas.boll.dev@gmail.com
   categories:
     - x11
-- repo: ubuntu_16_04
-  subrepo: xenial-updates/main
+- repo: ubuntu_18_04
+  subrepo: bionic/main
   srcname: libdrm
   binnames:
     - libdrm-dev
@@ -4160,8 +4151,8 @@
     - libdrm-etnaviv1
   visiblename: libdrm
   version: 2.4.91
-  origversion: 2.4.91-2~16.04.1
-  status: outdated
+  origversion: 2.4.91-2
+  status: legacy
   maintainers:
     - debian-x@lists.debian.org
     - andreas.boll.dev@gmail.com
@@ -4192,32 +4183,6 @@
   maintainers:
     - debian-x@lists.debian.org
     - aboll@debian.org
-  categories:
-    - x11
-- repo: ubuntu_18_04
-  subrepo: bionic/main
-  srcname: libdrm
-  binnames:
-    - libdrm-dev
-    - libdrm2
-    - libdrm-common
-    - libdrm2-udeb
-    - libdrm-intel1
-    - libdrm-nouveau2
-    - libdrm-radeon1
-    - libdrm-omap1
-    - libdrm-freedreno1
-    - libdrm-exynos1
-    - libdrm-tegra0
-    - libdrm-amdgpu1
-    - libdrm-etnaviv1
-  visiblename: libdrm
-  version: 2.4.91
-  origversion: 2.4.91-2
-  status: legacy
-  maintainers:
-    - debian-x@lists.debian.org
-    - andreas.boll.dev@gmail.com
   categories:
     - x11
 - repo: ubuntu_20_04
@@ -4275,33 +4240,6 @@
   categories:
     - x11
 - repo: ubuntu_22_04
-  subrepo: jammy/main
-  srcname: libdrm
-  binnames:
-    - libdrm-dev
-    - libdrm2
-    - libdrm-common
-    - libdrm-tests
-    - libdrm2-udeb
-    - libdrm-intel1
-    - libdrm-nouveau2
-    - libdrm-radeon1
-    - libdrm-omap1
-    - libdrm-freedreno1
-    - libdrm-exynos1
-    - libdrm-tegra0
-    - libdrm-amdgpu1
-    - libdrm-etnaviv1
-  visiblename: libdrm
-  version: 2.4.110
-  origversion: 2.4.110-1ubuntu1
-  status: legacy
-  maintainers:
-    - debian-x@lists.debian.org
-    - aboll@debian.org
-  categories:
-    - x11
-- repo: ubuntu_22_04
   subrepo: jammy-updates/main
   srcname: libdrm
   binnames:
@@ -4323,6 +4261,33 @@
   version: 2.4.113
   origversion: 2.4.113-2~ubuntu0.22.04.1
   status: outdated
+  maintainers:
+    - debian-x@lists.debian.org
+    - aboll@debian.org
+  categories:
+    - x11
+- repo: ubuntu_22_04
+  subrepo: jammy/main
+  srcname: libdrm
+  binnames:
+    - libdrm-dev
+    - libdrm2
+    - libdrm-common
+    - libdrm-tests
+    - libdrm2-udeb
+    - libdrm-intel1
+    - libdrm-nouveau2
+    - libdrm-radeon1
+    - libdrm-omap1
+    - libdrm-freedreno1
+    - libdrm-exynos1
+    - libdrm-tegra0
+    - libdrm-amdgpu1
+    - libdrm-etnaviv1
+  visiblename: libdrm
+  version: 2.4.110
+  origversion: 2.4.110-1ubuntu1
+  status: legacy
   maintainers:
     - debian-x@lists.debian.org
     - aboll@debian.org
@@ -4410,33 +4375,6 @@
   categories:
     - x11
 - repo: ubuntu_25_10
-  subrepo: questing/main
-  srcname: libdrm
-  binnames:
-    - libdrm-dev
-    - libdrm2
-    - libdrm-common
-    - libdrm-tests
-    - libdrm2-udeb
-    - libdrm-intel1
-    - libdrm-nouveau2
-    - libdrm-radeon1
-    - libdrm-omap1
-    - libdrm-freedreno1
-    - libdrm-exynos1
-    - libdrm-tegra0
-    - libdrm-amdgpu1
-    - libdrm-etnaviv1
-  visiblename: libdrm
-  version: 2.4.125
-  origversion: 2.4.125-1
-  status: outdated
-  maintainers:
-    - debian-x@lists.debian.org
-    - aboll@debian.org
-  categories:
-    - x11
-- repo: ubuntu_25_10
   subrepo: questing-updates/main
   srcname: libdrm
   binnames:
@@ -4457,6 +4395,33 @@
   visiblename: libdrm
   version: 2.4.125
   origversion: 2.4.125-1ubuntu0.1
+  status: outdated
+  maintainers:
+    - debian-x@lists.debian.org
+    - aboll@debian.org
+  categories:
+    - x11
+- repo: ubuntu_25_10
+  subrepo: questing/main
+  srcname: libdrm
+  binnames:
+    - libdrm-dev
+    - libdrm2
+    - libdrm-common
+    - libdrm-tests
+    - libdrm2-udeb
+    - libdrm-intel1
+    - libdrm-nouveau2
+    - libdrm-radeon1
+    - libdrm-omap1
+    - libdrm-freedreno1
+    - libdrm-exynos1
+    - libdrm-tegra0
+    - libdrm-amdgpu1
+    - libdrm-etnaviv1
+  visiblename: libdrm
+  version: 2.4.125
+  origversion: 2.4.125-1
   status: outdated
   maintainers:
     - debian-x@lists.debian.org
@@ -4602,6 +4567,15 @@
   summary: a userspace library for accessing the DRM, direct rendering manager, on GNU/Linux, BSD and other operating systems that support the ioctl interface
   licenses:
     - Expat license
+- repo: xrepo
+  srcname: libdrm
+  visiblename: libdrm
+  version: 2.4.118
+  origversion: null
+  status: legacy
+  summary: libdrm - userspace library for drm (direct rendering manager)
+  licenses:
+    - MIT
 - repo: xrepo
   srcname: libdrm
   visiblename: libdrm
